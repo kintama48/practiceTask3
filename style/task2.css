@@ -1,0 +1,114 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+#homepage {
+    background-color: teal;
+    width: 100%;
+    height: 40%;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+}
+
+#links {
+    background-color: pink;
+    text-align: center;
+    border: 3px solid black;
+    height: 500px;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 7%;
+}
+
+#about {
+    background-color: yellow;
+    text-align: center;
+    border: 3px solid black;
+    height: 500px;
+    width: 60.43%;
+    position: absolute;
+    top: 7%;
+    left: 258px;
+}
+
+#interests {
+    background-color: pink;
+    text-align: center;
+    border: 3px solid black;
+    height: 500px;
+    width: 20%;
+    position: absolute;
+    top: 7%;
+    right: 0;
+}
+
+
+#copyright {
+    text-align: center;
+    background-color: teal;
+    margin-top: 37.5%;
+    width: 100%;
+    height: 40%;
+    border: 3px solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    body #outsideDiv{
+        width: 300px;
+        height: 600px;
+        border: 2px solid black;
+    }
+    body #homepage{
+        width: 300px;
+        height: 100px;
+        border: 2px solid black;
+        position: absolute;
+        background-color: aquamarine;
+    }
+
+    body #copyright{
+        width: 300px;
+        height: 100px;
+        border: 2px solid black;
+        position: absolute;
+        background-color: aquamarine;
+        top: 510px;
+    }
+
+    body #links{
+        height: 80px;
+        width: 300px;
+        background-color: palevioletred;
+        position: absolute;
+        top:348px;
+
+    }
+
+    body #interests{
+        height: 80px;
+        width: 300px;
+        background-color: palevioletred;
+        position: absolute;
+        top:430px;
+        left: 10px;
+
+    }
+
+
+    body #about{
+
+        height: 250px;
+        width: 300px;
+        background-color: red;
+        position: absolute;
+        left: 10px;
+        top:110px;
+
+    }
+}
