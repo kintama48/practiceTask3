@@ -2,6 +2,16 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-tr, td, th {
-    border: 1px solid black;
+h1 {
+    text-align: center;
+    margin: 3%;
+}
+
+p {
+    margin: 3%;
+    text-align: center;
+}
+
+button {
+    text-align: center;
 }
